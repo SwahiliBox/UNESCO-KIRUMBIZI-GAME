@@ -14,6 +14,7 @@ Since the game involves fighting using sticks,a set of rules must be considered 
 5. The winner is determined by the number of hits to the opponent or if the opponent withdraws
 
 6. The winner is celebrated and the loser is jeered by the crowd
+![Screenshot](pi.jpg)
 
 ## Built with:
 
