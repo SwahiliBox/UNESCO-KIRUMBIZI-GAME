@@ -1,6 +1,6 @@
 # UNESCO-KIRUMBIZI-GAME
 Preserving the Coastal Culture under Banner of Unesco A game along the Thematic Dance called Kirumbizi was adopted for digital composition. This game mimics the actual dance itself and preserves how it was played out among the coastal communities during festivals and weddings.
-# RULES OF THE GAME
+## Rules of the game
 Since the game involves activitie of fighting with sticks,a set of rules mustbe considered to ensure efficient running of this game.The following rules are put into place 
 
 1. The player should ensure that he hits  strictly the stick not the other player's body to avoid physical injury
