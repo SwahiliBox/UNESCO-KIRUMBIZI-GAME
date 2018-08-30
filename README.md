@@ -17,8 +17,7 @@ Since the game involves activitie of fighting with sticks,a set of rules mustbe 
 
 ## Built With
 
-* [Dropwizard](https://unity3d.com/) - The IDE  used to develop the 
-* [Maven](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) - The programming language used to program the game
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Unity](https://unity3d.com/) - The IDE  used to develop the 
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) - The programming language used to program the game
 
 
