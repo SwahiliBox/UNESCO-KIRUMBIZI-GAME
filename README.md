@@ -15,7 +15,7 @@ Since the game involves fighting using sticks,a set of rules must be considered 
 
 6. The winner is celebrated and the loser is jeered by the crowd
 
-## Built With
+## Built with:
 
 * [Unity](https://unity3d.com/) - The IDE  used to develop the 
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) - The programming language used to program the game
