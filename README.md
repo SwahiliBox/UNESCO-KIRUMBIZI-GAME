@@ -18,7 +18,7 @@ Since the game involves fighting using sticks,a set of rules must be considered 
 
 ## Built with:
 
-* [Unity](https://unity3d.com/) - The IDE  used to develop the 
+* [Unity](https://unity3d.com/) - The IDE  used to develop the game.
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) - The programming language used to program the game
 
 
