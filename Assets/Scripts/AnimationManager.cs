@@ -19,12 +19,19 @@ public class AnimationManager : MonoBehaviour {
     public Text text_2;
 
     void Start () {
+        //myText.GetComponent<Text>();
+        //enemyText.GetComponent<Text>();
+        //text_2.GetComponent<Text>();
+        text_2.text = " ";
+        myText.text = " ";
+        enemyText.text = " ";
         SetCountText ();
         myScore = 0;
         Score_2 = 0;
-        text_2.text = " ";
-		
-	}
+        
+
+
+    }
 
 
 
@@ -47,8 +54,9 @@ public class AnimationManager : MonoBehaviour {
                 PlayerAnimation_2.SetTrigger("attacking");
                 Score_2++;
             }
-            SetCountText();
         }
+        SetCountText();
+
     }
     void SetCountText()
     {
@@ -58,7 +66,7 @@ public class AnimationManager : MonoBehaviour {
         {
             text_2.text = "You Win!";
         }
-        else if (Score_2>=10)
+        else if (Score_2>=30)
         {
             text_2.text = "You Lose!";
         }
