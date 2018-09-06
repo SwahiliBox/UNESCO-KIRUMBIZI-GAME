@@ -71,6 +71,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\AnimationManager.cs" />
     <Compile Include="Assets\Scripts\AnimationPlayer2.cs" />
+    <Compile Include="Assets\Scripts\MenuStart.cs" />
     <None Include="Assets\codeandweb.com\Readme.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
