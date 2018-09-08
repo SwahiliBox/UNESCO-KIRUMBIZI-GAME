@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -45,28 +45,18 @@ public class PlayersControl : MonoBehaviour
         {
             PlayerAnimation.SetTrigger("attacking");
             myScore++;
+            SetCountText();
         }
-        else
+        else if (time >= interpolationPeriod)
         {
-            time += Time.deltaTime;
-            while (time < interpolationPeriod)
-            {
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-                    PlayerAnimation.SetTrigger("attacking");
-                    myScore++;
-                }
-            }
-                //if (time >= interpolationPeriod)
-                //{
-                time = time - interpolationPeriod;
-            PlayerAnimation.SetTrigger("attacking");
+            PlayerAnimation.SetTrigger("EnemyAttacking");
             Score_2++;
-                SetCountText();
-            //}
+            time = time - interpolationPeriod;
+            SetCountText();
         }
-
-    }
+        else if (time < interpolationPeriod)
+            time += Time.deltaTime;
+    }     
     void SetCountText()
     {
         myText.text = "Score: " + myScore.ToString();
@@ -82,4 +72,3 @@ public class PlayersControl : MonoBehaviour
     }
 }
 
-*/

@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 9250167}
   - component: {fileID: 9250168}
   - component: {fileID: 9250169}
+  - component: {fileID: 9250170}
   m_Layer: 0
   m_Name: bitmap_0
   m_TagString: Untagged
@@ -206,6 +207,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9250170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9250166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5789fdef0b26ccc44a0270a263848cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerAnimation: {fileID: 9250169}
+  myScore: 0
+  Score_2: 0
+  myText: {fileID: 667671441}
+  enemyText: {fileID: 2065065196}
+  interpolationPeriod: 1
+  text_2: {fileID: 377055673}
 --- !u!1 &231543383
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &377055674
 CanvasRenderer:
   m_ObjectHideFlags: 0
