@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{33B85BC1-2619-8D0A-E35D-EA8B1257FFA8}</ProjectGuid>
+    <ProjectGuid>{0F5D6EE7-049F-D31B-2642-867FD496CA6D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -112,10 +112,10 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,7 +292,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>

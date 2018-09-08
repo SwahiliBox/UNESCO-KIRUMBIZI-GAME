@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNESCO-KIRUMBIZI-GAME", "Assembly-CSharp-firstpass.csproj", "{0F5D6EE7-049F-D31B-2642-867FD496CA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNESCO-KIRUMBIZI-GAME", "Assembly-CSharp.csproj", "{0BBAD401-05B8-8222-65AF-477F3F5F545F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNESCO-KIRUMBIZI-GAME", "Assembly-CSharp-Editor-firstpass.csproj", "{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5D6EE7-049F-D31B-2642-867FD496CA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5D6EE7-049F-D31B-2642-867FD496CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5D6EE7-049F-D31B-2642-867FD496CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5D6EE7-049F-D31B-2642-867FD496CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBAD401-05B8-8222-65AF-477F3F5F545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBAD401-05B8-8222-65AF-477F3F5F545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBAD401-05B8-8222-65AF-477F3F5F545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBAD401-05B8-8222-65AF-477F3F5F545F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{7A95BF14-FB53-5FDD-0891-D72214C57496}</ProjectGuid>
+    <ProjectGuid>{DCBB83AB-1D71-9509-4DCB-A3116BF01A95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -63,10 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -243,7 +243,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/FATIMA/Documents/Stick fight/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions.Editor">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
@@ -377,7 +377,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{33B85BC1-2619-8D0A-E35D-EA8B1257FFA8}</Project>
+      <Project>{0F5D6EE7-049F-D31B-2642-867FD496CA6D}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
