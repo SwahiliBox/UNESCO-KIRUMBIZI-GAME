@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayersControl : MonoBehaviour
@@ -16,21 +17,23 @@ public class PlayersControl : MonoBehaviour
     public Text enemyText;
     private float time = 0.0f;
     public float interpolationPeriod = 1.0f;
+    public bool P_pressed;
 
-    public Text text_2;
+    //public Text text_2;
 
     void Start()
     {
+        Time.timeScale = 1;
         //myText.GetComponent<Text>();
         //enemyText.GetComponent<Text>();
         //text_2.GetComponent<Text>();
-        text_2.text = " ";
+       // text_2.text = " ";
         myText.text = " ";
         enemyText.text = " ";
         SetCountText();
         myScore = 0;
         Score_2 = 0;
-
+        P_pressed = false;
 
 
     }
@@ -47,10 +50,24 @@ public class PlayersControl : MonoBehaviour
             myScore++;
             SetCountText();
         }
+        else if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (P_pressed == false)
+            {
+                P_pressed = true;
+                Time.timeScale = 0;
+            }
+            else
+            {
+                P_pressed = false;
+                Time.timeScale = 1;
+            }
+        }
         else if (time >= interpolationPeriod)
         {
             PlayerAnimation.SetTrigger("EnemyAttacking");
-            Score_2++;
+           // if(PlayerAnimation.)
+                Score_2++;
             time = time - interpolationPeriod;
             SetCountText();
         }
@@ -63,12 +80,26 @@ public class PlayersControl : MonoBehaviour
         enemyText.text = "Score: " + Score_2.ToString();
         if (myScore >= 30)
         {
-            text_2.text = "You Win!";
+            Time.timeScale = 0;
+           // text_2.text = "You Win!";
+            SceneManager.LoadScene("GameOverWin");
+            //loadGameOverScene(GameOver);
+
+
         }
         else if (Score_2 >= 30)
         {
-            text_2.text = "You Lose!";
+            Time.timeScale = 0;
+         //   text_2.text = "You Lose!";
+            SceneManager.LoadScene("GameOverLose");
+
+            //loadGameOverScene(GameOver);
         }
     }
+    /*void loadGameOverScene(string scenename)
+    {
+        Application.LoadLevel(scenename);
+    }*/
 }
 
+  

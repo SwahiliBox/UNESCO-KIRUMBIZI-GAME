@@ -11,4 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 1c2a6b7552bf8fd48838300f1a368819
+  - enabled: 0
+    path: 
+    guid: 83f9b6e7e56dddc47aac3373a03c0472
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 43c59642eb7da8646a199cc804852b74
+  - enabled: 1
+    path: Assets/Scenes/GameOverLose.unity
+    guid: a18eca36d74e60f4f85b2587bf196e02
+  - enabled: 1
+    path: Assets/Scenes/GameOverWin.unity
+    guid: fe41a2354d2e0d346a25c2c93859c38e
+  - enabled: 1
+    path: Assets/Scenes/InfoScene.unity
+    guid: 42c82ca681898f4449c6d51537cc526a
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 5875cbcb8aff61d4a8b0362501e5e053
   m_configObjects: {}

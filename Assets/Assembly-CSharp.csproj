@@ -61,8 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\animationAudio.cs" />
     <Compile Include="Assets\Scripts\MenuStart.cs" />
     <Compile Include="Assets\Scripts\PlayersControl.cs" />
+    <Compile Include="Assets\Scripts\StiickAudio.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/FATIMA/Desktop/UNESCO-KIRUMBIZI-GAME/Assets/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
